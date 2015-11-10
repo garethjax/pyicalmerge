@@ -1,0 +1,5 @@
+Merge multiple iCalendar .ics files to one file. Written in Python. Uses [vObject](http://vobject.skyhouseconsulting.com/).
+
+```
+python pyicalmerge.py -f "/icals/*.ics" -i "../combined.ics"
+```
